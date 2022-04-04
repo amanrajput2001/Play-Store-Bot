@@ -43,7 +43,7 @@ async def search(bot, update):
         "**Price:** `{}`".format(result["price"]) + "\n" \
         "**Full Price:** `{}`".format(result["full_price"]) + "\n" \
         "**Free:** `{}`".format(result["free"]) + "\n" \
-        "\n" + "Made by @FayasNoushad"
+        "\n" + "Made by @itzamanrajput"
         reply_markup = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Play Store", url="https://play.google.com"+result["url"])]]
         )
